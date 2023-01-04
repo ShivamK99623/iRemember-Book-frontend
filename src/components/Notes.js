@@ -80,7 +80,7 @@ const Notes = (props) => {
                 <div className="container mx-2"> 
                 {notes.length===0 && 'No notes to display'}
                 </div>
-               { notes.map((note)=>{console.log(note===reg)})}
+         
                 { 
                 notes.map((note) => {
                     
